@@ -1,0 +1,13 @@
+{
+    "name": "onion_999",
+    "version": "9.9.9",
+    "author": "7EX@LEX3R.com",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0",
+        "http-proxy-middleware": "^3.0.5"
+    }
+}
