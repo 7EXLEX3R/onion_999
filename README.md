@@ -10,8 +10,6 @@ Clearnet-Tor bridge, an app proxy hosting for the Tor network
 
 #### RUN
 ```sh
-sh bin/run.sh
-# or
 docker run -p 80:80 7exlex3r/onion_999:latest
 # or with specified custom url
 docker run -p 80:80 -e CLEARNET_URL="https://7ex.lex3r.com" 7exlex3r/onion_999:latest
@@ -23,7 +21,7 @@ docker run -p 80:80 -e CLEARNET_URL="https://7ex.lex3r.com" 7exlex3r/onion_999:l
 #### USAGE EXAMPLE
 - go to https://www.runpod.io
 - create a **CPU** pod template
-  - use **docker.io/7exlex3r/onion_999** as the Docker image
+  - use the **docker.io/7exlex3r/onion_999** Docker image
   - add **CLEARNET_URL** env with the target page URL
   - expose HTTP port **80**
   - use default/minimal container disk size
