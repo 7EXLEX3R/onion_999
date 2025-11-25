@@ -1,6 +1,6 @@
 ### onion_999
 
-Clearnet-Tor bridge, an app proxy hosting for the Tor network
+plug-and-play Clearnet-Tor bridge container, a regular website's hosting via an .onion URL
 
 - Docker container with Tor service and Node.js express proxy app
 - generates a new .onion URL on start and forwards traffic to the Clearnet URL specified in the `CLEARNET_URL` env
